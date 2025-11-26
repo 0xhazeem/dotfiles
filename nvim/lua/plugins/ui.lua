@@ -1,18 +1,20 @@
 return {
   -- Theme
+  -- === الثيم ===
   {
     "craftzdog/solarized-osaka.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      -- منطق الشفافية
-      local transparent_bg = true
-      if vim.g.neovide then transparent_bg = false end
-      
       require("solarized-osaka").setup({
-        transparent = transparent_bg,
+        transparent = true,
         terminal_colors = true,
         styles = {
+          -- هنا التعديل: لغينا الميلان لكل حاجة ورجعناها normal
+          comments = { italic = false },
+          keywords = { italic = false },
+          functions = { italic = false },
+          variables = { italic = false },
           sidebars = "transparent",
           floats = "transparent",
         },

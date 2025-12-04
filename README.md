@@ -56,5 +56,3 @@ Copy the custom configuration files (which define all your plugins and settings)
     *Check that the formatters (`prettier`, `black`, `flake8`) are installed via the `:Mason` menu.*
 
 ***
-
-**النتيجة:** أصبح لديك دليل تثبيت احترافي (Professional Guide) يغطي جميع التعقيدات من Git إلى PowerShell إلى Neovim، ومقسم بشكل واضح.
